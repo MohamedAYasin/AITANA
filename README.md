@@ -2,7 +2,6 @@ Here's your **GitHub-ready `README.md` file** with **all key headers bolded** an
 
 ---
 
-````markdown
 # 🧠 **Aitana: Promoting Circular Economy Through Electronic Waste Management in Eastleigh, Nairobi**
 
 ## 🧠 **Overview**
@@ -71,7 +70,6 @@ drive.mount('/content/drive')
 import os
 DATASET_PATH = "/content/drive/MyDrive/ewaste"
 CATEGORIES = sorted(os.listdir(DATASET_PATH))
-````
 
 ---
 
