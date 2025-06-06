@@ -1,7 +1,3 @@
-Here's your **GitHub-ready `README.md` file** with **all key headers bolded** and formatted for clarity and markdown compatibility:
-
----
-
 # 🧠 **Aitana: Promoting Circular Economy Through Electronic Waste Management in Eastleigh, Nairobi**
 
 ## 🧠 **Overview**
