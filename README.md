@@ -1,7 +1,7 @@
 # 🧠 **Aitana: Promoting Circular Economy Through Electronic Waste Management in Eastleigh, Nairobi**
 
 ## 🧠 **Overview**
-**Aitana** is a smart software application that helps communities in Eastleigh, Nairobi—and beyond—manage electronic waste (e-waste) responsibly. Using machine learning and image recognition, Aitana allows users to upload pictures of common e-waste items (such as mobile phones, computers, batteries, and more), identifies them, and suggests creative ideas for reuse or upcycling.
+**Aitana** is a smart software application that helps communities in Eastleigh, Nairobi—and beyond—manage electronic waste (e-waste) responsibly. Using machine learning and image recognition, Aitana allows users to upload pictures of common e-waste items (such as mobile phones, smartwatches, keeyboards, and more), identifies them, and suggests creative ideas for reuse or upcycling.
 
 This project supports the circular economy by combining AI technology with environmental education, encouraging sustainable innovation and reducing hazardous waste in urban areas.
 
@@ -59,7 +59,7 @@ Each class consists of labeled images stored in directories. The dataset is load
 ## 📌 **Project Pipeline**
 
 ### ✅ Step 1: Mount Google Drive and Set Dataset Path
-```python
+python
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -89,8 +89,6 @@ A **MobileNetV2** base model (pretrained on ImageNet) is used for feature extrac
 from tensorflow.keras.applications import MobileNetV2
 
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
-# Add custom top layers here...
-```
 
 ---
 
