@@ -176,6 +176,86 @@ Users can upload images and receive:
 
 ---
 
+## 🔗 GitHub Repository
+
+> [https://github.com/yourusername/aitana-ewaste](https://github.com/yourusername/aitana-ewaste)  
+_Clone or fork this repository to get started._
+
+---
+
+## ⚙️ How to Set Up the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/aitana-ewaste.git
+cd aitana-ewaste
+
+### 2. Set up the virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate    # or `venv\Scripts\activate` on Windows
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch the app (using Streamlit or Flask)
+
+```bash
+# For Streamlit
+streamlit run app.py
+```
+
+---
+
+## 🧠 Project Functionality (Core Features)
+
+* ✅ Upload image of e-waste (e.g., phone, keyboard, microwave)
+* ✅ Predict e-waste category using trained ML model
+* ✅ Suggest creative reuse/upcycling ideas for the item
+* ✅ Show fun facts related to the object
+* ✅ Save and evaluate classification results
+
+---
+
+
+* 🧭 **App interface screenshots:**
+
+
+
+* ⚡ **Circuit diagram (if applicable):**
+  *Not applicable for software-only project* (Remove if not needed)
+
+---
+
+## 🚀 Deployment Plan
+
+| Stage                | Description                                                                   |
+| -------------------- | ----------------------------------------------------------------------------- |
+| 🔧 Local Testing     | Fully functional using Streamlit on localhost                                 |
+| 🌐 Cloud Hosting     | Plan to deploy on Streamlit Cloud or Render                                   |
+| 📱 Mobile Extension  | Future plan: Convert UI into mobile app using Flutter or React Native         |
+| 📊 Data Storage      | E-waste image datasets hosted on Google Drive                                 |
+| 🛡️ Ethics & Privacy | Follows Kenya’s Data Protection Act; user consent & safety mechanisms ensured |
+
+---
+
+## 🎥 Video Demo
+
+📺 **Watch the 5–10 min demo video:**
+[![Aitana Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
+---
+
 ## 🙌 **Acknowledgments**
 
 This project is part of a **capstone at [The African Leadership University](https://alueducation.com/)** aiming to address e-waste management and promote creative sustainability in **Kenya**.
+
+
+Here’s a **clean and professional `README.md` file** structure for your **Aitana** project, focused on functionality, setup, design, and demo instructions — with minimal research background:
+
+---
