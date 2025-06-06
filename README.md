@@ -178,7 +178,7 @@ Users can upload images and receive:
 
 ## 🔗 GitHub Repository
 
-> [https://github.com/yourusername/aitana-ewaste](https://github.com/yourusername/aitana-ewaste)  
+> [https://github.com/yourusername/aitana-ewaste](https://github.com/MohamedAYasin/AITANA)  
 _Clone or fork this repository to get started._
 
 ---
@@ -247,7 +247,7 @@ streamlit run app.py
 ## 🎥 Video Demo
 
 📺 **Watch the 5–10 min demo video:**
-[![Aitana Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Aitana Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
 
 ---
 
