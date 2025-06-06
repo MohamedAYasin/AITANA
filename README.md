@@ -85,7 +85,7 @@ Data is loaded using `ImageDataGenerator` with real-time augmentation (rotation,
 
 A **MobileNetV2** base model (pretrained on ImageNet) is used for feature extraction. The top layers are customized for e-waste classification.
 
-```python
+python
 from tensorflow.keras.applications import MobileNetV2
 
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
@@ -178,10 +178,4 @@ Users can upload images and receive:
 
 ## 🙌 **Acknowledgments**
 
-This project is part of a **capstone at \[The African Leadership University]** aiming to address e-waste management and promote creative sustainability in **Kenya**.
-
----
-
-
-
----
+This project is part of a **capstone at [The African Leadership University](https://alueducation.com/)** aiming to address e-waste management and promote creative sustainability in **Kenya**.
