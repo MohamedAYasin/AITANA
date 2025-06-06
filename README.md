@@ -255,7 +255,4 @@ streamlit run app.py
 
 This project is part of a **capstone at [The African Leadership University](https://alueducation.com/)** aiming to address e-waste management and promote creative sustainability in **Kenya**.
 
-
-Here’s a **clean and professional `README.md` file** structure for your **Aitana** project, focused on functionality, setup, design, and demo instructions — with minimal research background:
-
 ---
