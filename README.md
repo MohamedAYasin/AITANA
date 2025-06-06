@@ -178,8 +178,7 @@ Users can upload images and receive:
 
 ## 🔗 GitHub Repository
 
-> [https://github.com/yourusername/aitana-ewaste](https://github.com/MohamedAYasin/AITANA)  
-_Clone or fork this repository to get started._
+[https://github.com/yourusername/aitana-ewaste](https://github.com/MohamedAYasin/AITANA)
 
 ---
 
