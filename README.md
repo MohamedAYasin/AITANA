@@ -68,13 +68,7 @@ Each class consists of labeled images stored in directories. The dataset is load
 
 ## 📌 **WEB UI SCREENSHOTS**
 
-![Image](https://github.com/user-attachments/assets/5a1f1888-7051-4a4f-a624-8147603b742b)
 
-![Image](https://github.com/user-attachments/assets/aae609b3-61b0-4a0f-a03c-17c9af84cc82)
-
-![Image](https://github.com/user-attachments/assets/1427e521-ad56-4ef4-a057-987b3c448621)
-
-![Image](https://github.com/user-attachments/assets/bdddd681-61c8-41cc-a4b6-7660fb22e35f)
 
 ---
 
