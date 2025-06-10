@@ -7,6 +7,14 @@ This project supports the circular economy by combining AI technology with envir
 
 ---
 
+## 🔗 PROJECT LINKS:
+
+[VIDEO DEMO](https://youtu.be/JSxADyp6AjM)
+
+[AITANA GITHUB REPOSITORY](https://github.com/MohamedAYasin/AITANA)
+
+---
+
 ## 💡 **Problem Statement**
 Nairobi generates over 2,400 tonnes of waste daily, with Eastleigh being a hotspot for e-waste due to its dense population and electronics trade. Existing e-waste solutions in Kenya, such as the **WEEE Centre** and **EWIK**, focus mostly on recycling and disposal—but there is **no software-based solution** that empowers residents to identify and creatively reuse e-waste items. Aitana fills that gap.
 
@@ -173,12 +181,6 @@ Users can upload images and receive:
 * Add object detection to localize e-waste in photos
 * Integrate a web UI or mobile app for easier interaction
 * Expand reuse idea database using generative AI (e.g., GPT)
-
----
-
-## 🔗 GitHub Repository
-
-[https://github.com/yourusername/aitana-ewaste](https://github.com/MohamedAYasin/AITANA)
 
 ---
 
