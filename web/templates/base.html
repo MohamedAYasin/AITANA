@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aitana – E-Waste Upcycling Assistant</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="{{ url_for('index') }}">🏠 Home</a>
+      <a href="{{ url_for('education') }}">📚 Education</a>
+      <a href="{{ url_for('testimonials') }}">🗣️ Testimonials</a>
+      <a href="{{ url_for('about') }}">📘 About</a>
+    </nav>
+
+    {% block content %}{% endblock %}
+
+    <!-- Main script for upload/predict -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

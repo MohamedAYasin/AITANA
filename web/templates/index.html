@@ -1,0 +1,39 @@
+{% extends "base.html" %} 
+{% block content %}
+<div class="container">
+
+  <!-- 🔷 LOGO IMAGE -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="Aitana Logo" style="height: 200px;">
+  </div>
+
+  <h2 class="title">Welcome to Aitana E-Waste Image Classification</h2>
+  <p class="subtitle">Upload an electronic waste item and get a creative reuse idea for your item to help promote a circular economy in Kenya.</p>
+
+  <form id="upload-form" class="upload-form" enctype="multipart/form-data" method="POST">
+    <input type="file" id="image-input" name="image" accept="image/*" required />
+    <button type="submit">♻️ Classify & Suggest</button>
+  </form>
+
+  <div id="result-wrapper" class="result-wrapper" style="display: none">
+    <div class="image-box">
+      <img id="uploaded-image" src="" alt="Uploaded preview" />
+    </div>
+    <div class="result-box">
+      <h3>✅ Classification Result</h3>
+      <p><strong>Item:</strong> <span id="label"></span></p>
+      <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+      <p><strong>Time Taken:</strong> <span id="time"></span></p>
+
+      <hr/>
+
+      <p><strong>Fun Fact:</strong> <span id="fun-fact"></span></p>
+
+      <p><strong>Reuse Ideas:</strong></p>
+      <ul id="reuse-ideas" style="text-align: left; max-width: 320px; margin: 0 auto 20px auto;"></ul>
+    </div>
+  </div>
+
+  <div id="error" class="error" style="display: none; color: red"></div>
+</div>
+{% endblock %}

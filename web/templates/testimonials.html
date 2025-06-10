@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h1 class="title">🗣️ What Users Say About Aitana AI</h1>
+
+  <!-- Existing testimonials -->
+  <div class="testimony-card">
+    <p>“I had no idea what to do with my broken printer, but Aitana suggested I turn it into a desk organizer — genius!”</p>
+    <strong>– Amina, Eastleigh</strong>
+  </div>
+
+  <div class="testimony-card">
+    <p>“I uploaded an image of my old laptop, and Aitana recommended a project to make a digital photo frame. Super useful!”</p>
+    <strong>– Peter, Nairobi</strong>
+  </div>
+
+  <div class="testimony-card">
+    <p>“The suggestions are easy to understand and really promote creativity. It feels great to upcycle instead of throw away.”</p>
+    <strong>– Halima, ALU Student</strong>
+  </div>
+
+  <!-- Feedback form -->
+  <div class="feedback-form">
+    <h2>💬 Share Your Experience</h2>
+    <form method="POST" action="{{ url_for('submit_feedback') }}">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="message">Your Feedback:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating" required>
+        <option value="5">⭐⭐⭐⭐⭐ (Excellent)</option>
+        <option value="4">⭐⭐⭐⭐ (Very Good)</option>
+        <option value="3">⭐⭐⭐ (Good)</option>
+        <option value="2">⭐⭐ (Fair)</option>
+        <option value="1">⭐ (Poor)</option>
+      </select>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
