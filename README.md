@@ -1,5 +1,7 @@
 # 🧠 **Aitana: Promoting Circular Economy Through Electronic Waste Management in Eastleigh, Nairobi**
 
+![Image](https://github.com/user-attachments/assets/e623b92c-5743-43ab-a1bc-4257d73cd9fa)
+
 ## 🧠 **Overview**
 **Aitana** is a smart software application that helps communities in Eastleigh, Nairobi—and beyond—manage electronic waste (e-waste) responsibly. Using machine learning and image recognition, Aitana allows users to upload pictures of common e-waste items (such as mobile phones, smartwatches, keeyboards, and more), identifies them, and suggests creative ideas for reuse or upcycling.
 
