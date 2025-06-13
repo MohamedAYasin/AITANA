@@ -15,7 +15,7 @@ This project supports the circular economy by combining AI technology with envir
 
 [AITANA GITHUB REPOSITORY](https://github.com/MohamedAYasin/AITANA)
 
-[Figma UI Design](https://www.figma.com/design/9gb5JAkpy6ek0occVEYhrZ/AITANA?node-id=0-1&p=f&t=OXElhzjblm1rQ4Yj-0)
+[FIGMA UI DESIGN](https://www.figma.com/design/9gb5JAkpy6ek0occVEYhrZ/AITANA?node-id=0-1&p=f&t=OXElhzjblm1rQ4Yj-0)
 
 ---
 
